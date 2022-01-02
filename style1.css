@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.div1 {
+  padding: 30px;
+  margin: 10px;
+  width: 500px;
+  height: 250px;
+  border: 25px outset red;
+  background-color: black;
+  text-align: center;
+  display: flex;
+}
+h1{
+font-family: Times New Roman;
+font-size: 35px;
+}
+h2{
+color: white;
+}
+p{
+color: white;
+}
+.div2{
+  border: 10px outset yellow;
+  background-color: blue;
+  text-align: center;
+}
+.div3{
+  border: 20px outset #BB0000;
+  background-color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Practice #2</h1>
+<div class="div1">
+  <h2>My name is Anuarov Beibars</h2>
+  <p>I'm student of AITU.</p>
+</div>
+
+<div class="div2">
+  <h1>HTML</h1>
+</div>
+
+<div class="div3">
+  <h1>CSS</h1>
+</div>
+
+</body>
+</html>
