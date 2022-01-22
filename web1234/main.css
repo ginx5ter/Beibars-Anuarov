@@ -1,0 +1,24 @@
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin: auto;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+div.body-class{
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+
+}
+
+p {
+    font-family: monospace;
+  }
+  div.body-class p {
+      font-size: 18px;
+  }
