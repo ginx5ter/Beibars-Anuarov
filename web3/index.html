@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        const fn = 'Beibars Anuarov CS-2120';
+        document.write(fn);
+    </script>
+        <h3>Year: </h3> <p id="y"></p>
+        <h3>Today is: </h3> <p id="ts"></p>
+        <h3>Date: </h3> <p id="d"></p>
+        <h3>Month: </h3> <p id="m"></p>
+        <h3>Current time is: </h3> <p id="hour">:</p><p id="min">:</p><p id="sec"></p>
+    <script>
+        const date = new Date();
+        const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let d = weekday[date.getDay()];
+        document.getElementById("y").innerHTML = date.getFullYear();
+        document.getElementById("ts").innerHTML = weekday[date.getDay()];
+        document.getElementById("d").innerHTML =    date.getDate();
+        document.getElementById("m").innerHTML = date.getMonth();
+        document.getElementById("hour").innerHTML = date.getHours();
+        document.getElementById("min").innerHTML = date.getMinutes();
+        document.getElementById("sec").innerHTML = date.getSeconds();
+    </script>
+    <form action="/action.php" method="post">
+        <p>1st number: </p>
+        <input type="number" name="1stnum" id="first">
+        <p>2nd number: </p>
+        <input type="number" name="2ndnum" id="second">
+        <input type="button" onClick="multiply()" Value="Multiply" />
+        <input type="button" onClick="divide()" Value="Divide" /> 
+        <h3>The result is:</h3>
+        <p id="res"></p>
+    </form>
+
+    <script type="text/javascript">
+        function multiply() {
+            a = document.getElementById("first").value;
+            b = document.getElementById("second").value;
+            document.getElementById("res").innerHTML = a * b;
+        }
+        function divide() {
+            a = document.getElementById("first").value;
+            b = document.getElementById("second").value;
+            document.getElementById("res").innerHTML = a / b;
+        }
+    </script>
+    <h2>
+        Until the freedom days left: 
+    </h2>
+    <p id="graduatedays" style="font-size: 30px;"></p>
+
+    <script>
+        var dateToday;
+        var dateGraduate;
+        var day = 1000*60*60*24;
+        dateToday = new Date(2022, 2, 5);
+        dateGraduate = new Date(2024, 7, 1);
+        var difference = dateGraduate.getTime() - dateToday.getTime();
+        document.getElementById("graduatedays").innerHTML = Math.round(difference / day);
+        
+    </script>
+</body>
+</html>
