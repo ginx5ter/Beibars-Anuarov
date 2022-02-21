@@ -1,0 +1,26 @@
+.hovertext {
+    position: relative;
+    justify-content: top;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 400px;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity 0.6s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+    padding: 5px 5px;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
