@@ -1,0 +1,123 @@
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin: auto;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("https://www.nicepng.com/png/detail/2-20854_transparent-snow-png-pattern.png");
+    background-color: #cccccc;
+}
+
+.expoimg {
+    display: block;
+}
+
+.exp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image1 {
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.article {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: monospace;
+}
+
+.page1 {
+    display: felx;
+}
+
+.astanahub {
+    display: flex;
+    height: 350px;
+    width: 550px;
+}
+
+.aitu {
+    height: 350px;
+    width: 550px;
+}
+
+.congress {
+    height: 350px;
+    width: 550px;
+}
+
+.eiec {
+    height: 350px;
+    width: 550px;
+}
+
+.hilton {
+    height: 350px;
+    width: 550px;
+}
+
+.aifc {
+    height: 350px;
+    width: 550px;
+}
+
+.njsc {
+    height: 350px;
+    width: 550px;
+}
+
+.undername-text {
+    text-align: center;
+}
+
+.asdfg {
+    height: 350px;
+    width: 550px;
+}
+
+p {
+    font-family: monospace;
+}
+
+div.container {
+    font-family: monospace;
+    text-align: center;
+}
+
+div.body-class {
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+}
+
+div.minitext i {
+    font-size: 20px;
+}
+
+div.minitext p {
+    font-size: 20px;
+}
+
+div.mb-3 {
+    font-size: 20px;
+}
+
+.minitext {
+    font-size: 25px;
+}
+
+.mintext {
+    width: 100%;
+    position: relative;
+    font-size: 17px;
+    margin-top: 10px;
+}
