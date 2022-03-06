@@ -1,0 +1,42 @@
+div#myCarousel {
+    width: 1700px;
+    height: 600px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+    }
+    .carousel, .item, .active {
+    height:100%;
+    }
+    .carousel-inner {
+    height:100%;
+    }
+    .carousel {
+    margin-bottom: 60px;
+    }
+    .carousel-caption {
+    z-index: 10;
+    }
+    .carousel .item {
+    background-color: #777;
+    }
+    .carousel .carousel-inner .bg {
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+    .carousel .carousel-inner .bg1 {
+    background-image:url('https://qazexpocongress.kz/wp-content/themes/qazexpocongress/img/expo-item-banner.jpg');
+    background-position: center top;
+    }
+    .carousel .carousel-inner .bg2 {
+    background-image:url('https://appazov.kz/upload/medialibrary/ada/adadc3712c3e206d74ecbc570596d4d4.jpg');
+    background-position: center center;
+    }
+    .carousel-caption p {
+    color: white;
+    font-size: 20px;
+    }
+    .carousel-caption h1 {
+    color: white;
+    font-size: 40px;
+    }
