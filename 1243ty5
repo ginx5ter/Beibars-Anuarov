@@ -1,0 +1,19 @@
+public class task4 {
+    public static void main(String[] args) {
+        String word = "eye";
+        String rword = reverse(word);
+        System.out.println(isPalindrome(word, rword));
+    }
+
+    public static String reverse(String word) {
+        if (word.length() == 1)
+            return word;
+        return reverse(word.substring(1)) + word.charAt(0);
+    }
+
+    public static boolean isPalindrome(String word, String rword) {
+        if (word == rword) return true;
+        return false;
+        
+    }
+}
